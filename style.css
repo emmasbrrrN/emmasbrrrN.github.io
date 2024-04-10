@@ -1,27 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+body {
+  margin: 0;
+}
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 25px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-style: "Catamaran", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.link {
+  font-family: "Catamaran", sans-serif;
+}
+
+header {
+  background-image: url("vignes pics.jpg");
+  background-size: cover;
+  height: 450px;
+}
+
+h3 {
+  color: yellow;
+}
+
+#paragraphe-presentation p {
+  color: orange;
+  font-size: large;
+  font-family: "Catamaran", sans-serif;
+  margin: 0 250px;
+  filter: blur(0);
+}
+
+.button.primary {
+  background: hsl(35, 96%, 48%);
+  color: white;
+  border: 2px solid hsl(35, 96%, 48%);
+  text-decoration: none;
+  font-family: "Catamaran", sans-serif;
+}
+
+.carte {
+  display: flex;
+  gap: 200px;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.bouteille {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.carte-vin {
+  text-align: center;
+  width: 30%;
+}
+.carte-vin h2 {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.icon{display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal; }
+
+.icon h3 {
+  color: black;
+}
+
+.stars li {
+  display: inline;
+}
+
+#rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer  {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+footer ul li{
+  display: inline;
+  list-style: none;
+  margin-right: 25px;
   
-  nav ul li {
-    display: inline;
-    list-style: none;
-    margin-right: 25px;
-    text-decoration: none;
-  }
+  
+}
 
-  header {
-    background-image:url("vignes pics.jpg") ;
-   background-size: cover;
-      height: 750px;
-     
-  }
-
-  .button.primary {
-    background: hsl(35, 96%, 48%);
-    color: white;
-    border: 2px solid hsl(58, 96%, 48%);
-  }
+footer{
+  align-items: center;
+}
