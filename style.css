@@ -42,21 +42,38 @@ h3 {
   font-family: "Catamaran", sans-serif;
   margin: 0 250px;
   filter: blur(0);
+  text-shadow: 1px 1px 2px black;
 }
 
 .button.primary {
-  background: hsl(35, 96%, 48%);
+  background: #f86806;
   color: white;
-  border: 2px solid hsl(35, 96%, 48%);
+  border: 2px solid #f86806;
   text-decoration: none;
   font-family: "Catamaran", sans-serif;
+  
+
 }
+
+.button.primary:hover{
+  background-color: white;
+  color:#f86806;
+  border: 2px solid white;
+}
+
+
 
 .carte {
   display: flex;
-  gap: 200px;
-  justify-content: space-around;
+  gap: 20px;
+  justify-content: space-evenly;
   padding-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background-color: #f86806;
+  border-bottom: 20px;
+  
+
 }
 
 .bouteille {
@@ -68,6 +85,10 @@ h3 {
 .carte-vin {
   text-align: center;
   width: 30%;
+  border-radius: 30px;
+  background-color: white;
+  width: fit-content;
+  margin-bottom: 20px;
 }
 .carte-vin h2 {
   font-family: "Catamaran", sans-serif;
@@ -76,26 +97,74 @@ h3 {
   font-style: normal;
 }
 
+.titre{
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  margin-block: 65px
+  ;
+
+}
+
+
 .icon{display: flex;
   align-items: center;
   justify-content: space-around;
   font-family: "Catamaran", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal;
+justify-content: space-around;
+
+ }
+
+
 
 .icon h3 {
   color: black;
+  text-align: center;
 }
+
+.icoon{
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
 
 .stars li {
   display: inline;
 }
 
+.stars p{
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.avatar{
+  width: 60px;
+   height: 60px;
+   object-fit: cover;
+   border-radius: 100%;
+   border: rgb(28, 27, 27) 3px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 50%;
+   justify-content: center;
+ }
+
 #rating {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #f86806;
+  margin-top:30px;
 }
 
 footer  {
@@ -103,15 +172,28 @@ footer  {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
 }
+
 footer ul li{
   display: inline;
   list-style: none;
   margin-right: 25px;
-  
-  
 }
+ footer ul{
+margin-top:30px;
 
+
+ }
 footer{
   align-items: center;
+  background-color: blanchedalmond;
+}
+ 
+
+.bottom{
+  margin-block: 0;
+margin:0;
+
 }
